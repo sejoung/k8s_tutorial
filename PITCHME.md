@@ -1,16 +1,13 @@
 Oracle Monthly Meetup
 ===
 
-* Date: 2017-11-18, Saturday, 12:30~17:00
-* Place: 15F, ASEM Tower.
-* Younggyu Kim (younggyu.kim@oracle.com) 
-* OCAP (Oracle Cloud Adoption Platform) Team
-* Principal Sales Consultant
+오타 수정본 입니다.
+
 
 ---
 ## Get started with Kubernetes
 
-* **PT**: [http://gitpitch.com/credemol/k8s_tutorial](http://gitpitch.com/credemol/k8s_tutorial) 
+* **PT**: [http://gitpitch.com/sejoung/k8s_tutorial](http://gitpitch.com/credemol/k8s_tutorial) 
 
 * **Slack**: [http://cloudnativeapp.slack.com](http://cloudnativeapp.slack.com)
 
@@ -310,7 +307,7 @@ deployment "echoserver" created
 
 $ kubectl get deployments
 $ kubectl get pods
-$ kubectl replicasets
+$ kubectl get replicasets
 
 $ kubectl get all --show-labels
 ```
@@ -322,7 +319,7 @@ Exposing the service as type NodePort means that it is exposed to the host on so
 $ kubectl expose deployment echoserver --type=NodePort
 $ kubectl get services
 $ minikube ip
-$ kubectl get service echoservice
+$ kubectl get service echoserver
 
 $ minikube service echoserver --url
 $ curl $(minikube service echoserver --url)
