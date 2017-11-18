@@ -599,7 +599,7 @@ $ minikube service nodejs-app2 --url
 ### minikube dashboard
 
 ```sh
-$ minikube dashbard
+$ minikube dashboard
 ``` 
 [http://192.168.99.100:30000](http://192.168.99.100:30000)
 
