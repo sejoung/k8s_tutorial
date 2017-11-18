@@ -3,6 +3,7 @@ Oracle Monthly Meetup
 
 오타 수정본 입니다.
 
+원도우는 파워쉘 사용을 권장 합니다.
 
 ---
 ## Get started with Kubernetes
