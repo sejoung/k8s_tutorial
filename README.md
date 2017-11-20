@@ -2,4 +2,4 @@
 
 This document is designed for Kubernetes Training Session.
 
-[2017-11-18 Meetup](oracle-meetup-20171118.md)
+[2017-11-18 Meetup](PITCHME.md)
